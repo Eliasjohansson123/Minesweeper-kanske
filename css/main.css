@@ -1,0 +1,29 @@
+#container{
+    width:500px;
+    height:500px;
+}
+.row{
+    display:flex;
+    width:100%;
+    height:calc(100%/12);
+}
+.tile{
+    height: 100%;
+    width: calc(100%/12);
+    border:dotted 2px lightgrey;
+}
+.empty{
+    background-color: white;
+}
+.tableBorder{
+    display:none;
+}
+.bomb{
+    background-color: red;
+}
+.bombBorder{
+    background-color: magenta;
+}
+.hidden{
+    background-color:lightgrey;
+}
