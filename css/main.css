@@ -7,10 +7,14 @@
     width:100%;
     height:calc(100%/12);
 }
+.hidden,
 .tile{
     height: 100%;
     width: calc(100%/12);
     border:dotted 2px lightgrey;
+    &:hover{
+        background-color: #ddd;
+    }
 }
 .empty{
     background-color: white;
@@ -25,5 +29,5 @@
     background-color: magenta;
 }
 .hidden{
-    background-color:lightgrey;
+    background-color: #ffffaa;
 }
